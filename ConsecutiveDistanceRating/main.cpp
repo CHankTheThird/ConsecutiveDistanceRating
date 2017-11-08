@@ -42,6 +42,12 @@ int main() {
       }
    }
 
+   for (int line = 0; line < numLines; line++) {
+      delete[] numbers[line];
+   }
+   delete[] numbers;
+
+
    while (true) {
 
    }
